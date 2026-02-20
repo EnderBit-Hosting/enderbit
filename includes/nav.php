@@ -6,11 +6,11 @@
   </div>
   <div class="nav-center">
     <a href="/" class="nav-link">Home</a>
-    <a href="/why-choose-us.php" class="nav-link">Why Choose Us</a>
-    <a href="/locations.php" class="nav-link">Locations</a>
-    <a href="/games.php" class="nav-link">Games</a>
-    <a href="/faq.php" class="nav-link">FAQ</a>
-    <a href="/about.php" class="nav-link">About</a>
+    <a href="/why-choose-us" class="nav-link">Why Choose Us</a>
+    <a href="/locations" class="nav-link">Locations</a>
+    <a href="/games" class="nav-link">Games</a>
+    <a href="/faq" class="nav-link">FAQ</a>
+    <a href="/about" class="nav-link">About</a>
   </div>
   <div class="nav-right">
     <a href="https://dash.enderbit.com" target="_blank" rel="noopener noreferrer" class="btn-primary">Start Hosting Free</a>
@@ -27,10 +27,10 @@
 <div class="mobile-drawer">
   <div class="drawer-links">
     <a href="/" class="nav-link">Home</a>
-    <a href="/why-choose-us.php" class="nav-link">Why Choose Us</a>
-    <a href="/locations.php" class="nav-link">Locations</a>
-    <a href="/games.php" class="nav-link">Games</a>
-    <a href="/faq.php" class="nav-link">FAQ</a>
-    <a href="/about.php" class="nav-link">About</a>
+    <a href="/why-choose-us" class="nav-link">Why Choose Us</a>
+    <a href="/locations" class="nav-link">Locations</a>
+    <a href="/games" class="nav-link">Games</a>
+    <a href="/faq" class="nav-link">FAQ</a>
+    <a href="/about" class="nav-link">About</a>
   </div>
 </div>

@@ -11,11 +11,11 @@
       <h4 class="footer-heading">Quick Links</h4>
       <ul class="footer-links">
         <li><a href="/">Home</a></li>
-        <li><a href="/why-choose-us.php">Why Choose Us</a></li>
-        <li><a href="/locations.php">Locations</a></li>
-        <li><a href="/games.php">Games</a></li>
-        <li><a href="/faq.php">FAQ</a></li>
-        <li><a href="/about.php">About</a></li>
+        <li><a href="/why-choose-us">Why Choose Us</a></li>
+        <li><a href="/locations">Locations</a></li>
+        <li><a href="/games">Games</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/about">About</a></li>
       </ul>
     </div>
     <div class="footer-col">

@@ -1,4 +1,26 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Search functionality
+  const searchInput = document.getElementById('faq-search');
+  const accordionItems = document.querySelectorAll('.accordion-item');
+
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value.trim().toLowerCase();
+      accordionItems.forEach(item => {
+        const text = item.textContent.toLowerCase();
+        if (!query || text.includes(query)) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+          // Also close it if hidden
+          item.classList.remove('active');
+          const content = item.querySelector('.accordion-content');
+          if (content) content.style.maxHeight = null;
+        }
+      });
+    });
+  }
+
   const headers = document.querySelectorAll('.accordion-header');
   
   headers.forEach(header => {

@@ -14,7 +14,7 @@ include 'includes/nav.php';
       <p class="subheadline">EnderBit gives everyone access to high-performance, DDoS-protected game servers — Minecraft, CS2, Rust, and more — completely free. No trials. No limits. No catch.</p>
       <div class="hero-buttons">
         <a href="https://dash.enderbit.com" target="_blank" rel="noopener noreferrer" class="btn-primary btn-large">Start Hosting Free</a>
-        <a href="/why-choose-us.php" class="btn-secondary btn-large">Explore What We Offer</a>
+        <a href="/why-choose-us" class="btn-secondary btn-large">Explore What We Offer</a>
       </div>
       <p class="trust-text">Join thousands of players already hosting with EnderBit</p>
     </div>
@@ -119,7 +119,7 @@ include 'includes/nav.php';
       <p>EnderBit was built because good free hosting didn't exist. We were tired of platforms that forced you to watch ads, throttled your performance, or shut down your server without warning.</p>
       <p>We believe every gamer deserves a high-quality server to play with their friends. That's why EnderBit is community-supported and built on enterprise-grade infrastructure.</p>
       <p>No upsells. No forced upgrades. Just powerful game servers, completely free.</p>
-      <a href="/about.php" class="text-link">Learn Our Story &rarr;</a>
+      <a href="/about" class="text-link">Learn Our Story &rarr;</a>
     </div>
     <div class="mission-image" data-animate style="transition-delay: 100ms;">
       <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Data Center" loading="lazy">
@@ -222,7 +222,7 @@ include 'includes/nav.php';
     </div>
   </div>
   <div class="container text-center" style="margin-top: 40px;" data-animate>
-    <a href="/games.php" class="btn-secondary">See All Supported Games &rarr;</a>
+    <a href="/games" class="btn-secondary">See All Supported Games &rarr;</a>
   </div>
 </section>
 
