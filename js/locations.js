@@ -1,6 +1,6 @@
 // locations.js — hostnames defined here only, never in HTML/PHP
 const REGIONS = [
-  { id: "na-east", name: "NA-East",  city: "Virginia",     country: "United States", url: "https://na-east-1.enderbit.com", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Virginia_State_Capitol_2012.jpg/800px-Virginia_State_Capitol_2012.jpg" },
+  { id: "na-east", name: "NA-East",  city: "Virginia",     country: "United States", url: "https://na-east-1.enderbit.com", img: "https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
   { id: "na-west", name: "NA-West",  city: "Los Angeles",  country: "United States", url: "https://na-west-1.enderbit.com", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/LA_Skyline_Mountains2.jpg/800px-LA_Skyline_Mountains2.jpg" },
   { id: "eu-west", name: "EU-West",  city: "London",       country: "United Kingdom", url: "https://eu-west-1.enderbit.com", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall_%28cropped%29.jpg/800px-Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall_%28cropped%29.jpg" },
   { id: "au-east", name: "AU-East",  city: "Sydney",       country: "Australia",      url: "https://au-east-1.enderbit.com", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._%2821339175489%29.jpg/800px-Sydney_Australia._%2821339175489%29.jpg" },
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 window.retest = function(id) {
   const card = document.getElementById(`card-${id}`);
-  card.className = 'region-card measuring';
+  card.className = 'region-card measuring visible';
   document.getElementById(`ping-${id}`).innerText = '— ms';
   document.getElementById(`status-${id}`).innerHTML = '<span class="status-dot"></span> Measuring...';
   
@@ -105,7 +105,7 @@ async function runTest(id) {
   const status = getStatus(ms);
   
   const card = document.getElementById(`card-${id}`);
-  card.className = `region-card ${status.class}`;
+  card.className = `region-card ${status.class} visible`;
   
   document.getElementById(`ping-${id}`).innerText = ms === null ? '—' : `${ms} ms`;
   document.getElementById(`status-${id}`).innerHTML = `<span class="status-dot"></span> ${status.label}`;

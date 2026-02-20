@@ -86,7 +86,7 @@ include 'includes/nav.php';
     </div>
     <!-- Game 8 -->
     <div class="game-card" data-animate style="transition-delay: 350ms;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/TeamSpeak_logo.svg/512px-TeamSpeak_logo.svg.png" alt="Mumble / TeamSpeak" loading="lazy">
+      <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/teamspeak.png" alt="Mumble / TeamSpeak" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Voice Server</div>
       <div class="game-content">
@@ -106,7 +106,7 @@ include 'includes/nav.php';
     </div>
     <!-- Game 10 -->
     <div class="game-card" data-animate style="transition-delay: 450ms;">
-      <img src="https://webimages.mongodb.com/_com_assets/cms/kuyz3d112gl120y21-MongoDB_Logomark_SpringGreen.png" alt="MongoDB" loading="lazy">
+      <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mongodb.png" alt="MongoDB" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Database</div>
       <div class="game-content">
@@ -165,6 +165,14 @@ include 'includes/nav.php';
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+  // Make game card images clickable
+  document.querySelectorAll('.game-card img').forEach(img => {
+    img.style.cursor = 'pointer';
+    img.addEventListener('click', () => {
+      window.open('https://dash.enderbit.com', '_blank', 'noopener,noreferrer');
+    });
+  });
+
   const headers = document.querySelectorAll('.accordion-header');
   headers.forEach(header => {
     header.addEventListener('click', () => {

@@ -1,7 +1,7 @@
 /* Page Hero */
 .page-hero {
   position: relative;
-  padding: 100px 24px 60px;
+  padding: 0px 24px 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,15 +182,20 @@
 }
 
 /* Infographic Section */
+.infographic-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .infographic-section h2 {
   font-size: clamp(32px, 4vw, 48px);
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .infographic-container {
   width: 100%;
   overflow-x: auto;
-  padding: 24px 0;
+  padding: 12px 0;
 }
 
 .infra-svg {
@@ -210,6 +215,10 @@
 }
 
 /* Testimonials Section */
+.testimonials-section {
+  padding-top: 40px;
+}
+
 .testimonials-section h2 {
   font-size: clamp(32px, 4vw, 48px);
   margin-bottom: 48px;

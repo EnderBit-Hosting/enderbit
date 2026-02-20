@@ -95,7 +95,7 @@ include 'includes/nav.php';
 <section class="stats-bar">
   <div class="container stats-grid">
     <div class="stat-item" data-animate>
-      <div class="stat-number"><span class="counter" data-target="99.9">0</span>%</div>
+      <div class="stat-number"><span class="counter" data-target="99.99">0</span>%</div>
       <div class="stat-label">Uptime Guaranteed</div>
     </div>
     <div class="stat-divider"></div>
@@ -122,7 +122,7 @@ include 'includes/nav.php';
       <a href="/about.php" class="text-link">Learn Our Story &rarr;</a>
     </div>
     <div class="mission-image" data-animate style="transition-delay: 100ms;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CERN_Server_Center.jpg/1200px-CERN_Server_Center.jpg" alt="Data Center" loading="lazy">
+      <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Data Center" loading="lazy">
     </div>
   </div>
 </section>
@@ -165,8 +165,9 @@ include 'includes/nav.php';
   <div class="container">
     <h2 data-animate>10+ Games & Services Supported</h2>
   </div>
-  <div class="games-scroll-container" data-animate>
+  <div class="games-scroll-container">
     <div class="games-scroll-track">
+      <!-- Original set -->
       <div class="game-card">
         <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/Games_Subnav_Minecraft-300x465.jpg" alt="Minecraft" loading="lazy">
         <div class="game-overlay"></div>
@@ -189,6 +190,32 @@ include 'includes/nav.php';
       </div>
       <div class="game-card">
         <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/4000/capsule_616x353.jpg" alt="Garry's Mod" loading="lazy">
+        <div class="game-overlay"></div>
+        <div class="game-name">Garry's Mod</div>
+      </div>
+      <!-- Duplicate set for seamless loop -->
+      <div class="game-card" aria-hidden="true">
+        <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/Games_Subnav_Minecraft-300x465.jpg" alt="" loading="lazy">
+        <div class="game-overlay"></div>
+        <div class="game-name">Minecraft</div>
+      </div>
+      <div class="game-card" aria-hidden="true">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_616x353.jpg" alt="" loading="lazy">
+        <div class="game-overlay"></div>
+        <div class="game-name">CS2</div>
+      </div>
+      <div class="game-card" aria-hidden="true">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/252490/capsule_616x353.jpg" alt="" loading="lazy">
+        <div class="game-overlay"></div>
+        <div class="game-name">Rust</div>
+      </div>
+      <div class="game-card" aria-hidden="true">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/346110/capsule_616x353.jpg" alt="" loading="lazy">
+        <div class="game-overlay"></div>
+        <div class="game-name">ARK: Survival Evolved</div>
+      </div>
+      <div class="game-card" aria-hidden="true">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/4000/capsule_616x353.jpg" alt="" loading="lazy">
         <div class="game-overlay"></div>
         <div class="game-name">Garry's Mod</div>
       </div>

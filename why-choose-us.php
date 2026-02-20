@@ -7,7 +7,7 @@ include 'includes/nav.php';
 
 <section class="page-hero">
   <div class="hero-bg">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CERN_Server_Center.jpg/1200px-CERN_Server_Center.jpg" alt="Data Center">
+    <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Data Center">
     <div class="hero-overlay"></div>
   </div>
   <div class="container hero-content text-center" data-animate>
@@ -105,7 +105,7 @@ include 'includes/nav.php';
 <section class="infographic-section container">
   <h2 class="text-center" data-animate>How It Works</h2>
   <div class="infographic-container" data-animate>
-    <svg viewBox="0 0 800 300" class="infra-svg">
+    <svg viewBox="0 80 800 190" class="infra-svg">
       <defs>
         <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stop-color="#2563eb" />

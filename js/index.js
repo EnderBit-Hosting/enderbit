@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Counter Animation
   const counters = document.querySelectorAll('.counter');
-  const speed = 200;
+  const speed = 50;
 
   const counterObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const inc = target / speed;
 
           if (count < target) {
-            counter.innerText = (count + inc).toFixed(1);
+            counter.innerText = (count + inc).toFixed(2);
             setTimeout(updateCount, 10);
           } else {
             counter.innerText = target;
