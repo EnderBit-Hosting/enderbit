@@ -1,0 +1,255 @@
+/* Page Hero */
+.page-hero {
+  position: relative;
+  padding: 120px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(10,10,15,0.8), var(--bg-primary));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: clamp(40px, 6vw, 64px);
+  margin-bottom: 16px;
+}
+
+.hero-content .subheadline {
+  font-size: 20px;
+  color: var(--text-secondary);
+}
+
+/* Comparison Table */
+.comparison-section h2 {
+  font-size: clamp(32px, 4vw, 48px);
+  margin-bottom: 48px;
+}
+
+.comparison-table {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.table-header, .table-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.table-header {
+  background: rgba(255,255,255,0.02);
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.col-enderbit {
+  color: var(--accent-blue);
+  font-weight: 600;
+  background: rgba(37,99,235,0.05);
+  margin: -20px -12px;
+  padding: 20px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.table-header .col-enderbit {
+  background: rgba(37,99,235,0.1);
+}
+
+.col-feature {
+  font-weight: 500;
+}
+
+.col-free, .col-paid {
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon-check {
+  width: 20px;
+  height: 20px;
+  stroke: var(--success);
+  fill: none;
+  stroke-width: 2;
+}
+
+.icon-x {
+  width: 20px;
+  height: 20px;
+  stroke: var(--danger);
+  fill: none;
+  stroke-width: 2;
+}
+
+@media (max-width: 768px) {
+  .table-header, .table-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 16px;
+  }
+  .col-feature {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+  }
+  .col-enderbit {
+    margin: 0;
+    padding: 8px;
+    border-radius: 8px;
+  }
+}
+
+/* Pillars Section */
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.pillar-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 40px 32px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.pillar-card:hover {
+  transform: translateY(-4px);
+}
+
+.pillar-icon {
+  color: var(--accent-blue);
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.pillar-card h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.pillar-card p {
+  color: var(--text-secondary);
+}
+
+@media (max-width: 992px) {
+  .pillars-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Infographic Section */
+.infographic-section h2 {
+  font-size: clamp(32px, 4vw, 48px);
+  margin-bottom: 48px;
+}
+
+.infographic-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 24px 0;
+}
+
+.infra-svg {
+  width: 100%;
+  min-width: 600px;
+  height: auto;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -16;
+  }
+}
+
+.animated-path {
+  animation: dash 1s linear infinite;
+}
+
+/* Testimonials Section */
+.testimonials-section h2 {
+  font-size: clamp(32px, 4vw, 48px);
+  margin-bottom: 48px;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.testimonial-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent-blue);
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.stars {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 4px;
+}
+
+.quote {
+  font-size: 16px;
+  color: var(--text-primary);
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+.author {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,148 @@
+.page-hero {
+  padding: 120px 24px 64px;
+}
+
+.page-hero h1 {
+  font-size: clamp(40px, 6vw, 64px);
+  margin-bottom: 16px;
+}
+
+.page-hero .subheadline {
+  font-size: 20px;
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+}
+
+.search-bar-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 20px;
+  gap: 12px;
+}
+
+.search-bar svg {
+  width: 20px;
+  height: 20px;
+  color: var(--text-muted);
+}
+
+.search-bar input {
+  flex: 1;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-bar input::placeholder {
+  color: var(--text-muted);
+}
+
+.faq-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.accordion-item {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  text-align: left;
+}
+
+.accordion-header h3 {
+  font-size: 18px;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.chevron {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+  color: var(--text-muted);
+}
+
+.accordion-item.active .chevron {
+  transform: rotate(180deg);
+  color: var(--accent-blue);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-inner {
+  padding: 0 24px 24px;
+  color: var(--text-secondary);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contact-cta {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  background: radial-gradient(circle at center, rgba(37,99,235,0.1) 0%, transparent 70%), var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 48px 24px;
+}
+
+.contact-card h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.contact-card p {
+  color: var(--text-secondary);
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .contact-buttons {
+    flex-direction: column;
+  }
+}
