@@ -7,7 +7,7 @@ include 'includes/nav.php';
 
 <section class="page-hero">
   <div class="hero-bg">
-    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1920&q=80" alt="Data Center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CERN_Server_Center.jpg/1200px-CERN_Server_Center.jpg" alt="Data Center">
     <div class="hero-overlay"></div>
   </div>
   <div class="container hero-content text-center" data-animate>

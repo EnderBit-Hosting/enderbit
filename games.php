@@ -16,7 +16,7 @@ include 'includes/nav.php';
   <div class="games-grid">
     <!-- Game 1 -->
     <div class="game-card" data-animate style="transition-delay: 0ms;">
-      <img src="https://images.unsplash.com/photo-1607853202273-797f1c22a38e?auto=format&fit=crop&w=600&q=80" alt="Minecraft" loading="lazy">
+      <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/Games_Subnav_Minecraft-300x465.jpg" alt="Minecraft" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Game Server</div>
       <div class="game-content">
@@ -26,7 +26,7 @@ include 'includes/nav.php';
     </div>
     <!-- Game 2 -->
     <div class="game-card" data-animate style="transition-delay: 50ms;">
-      <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80" alt="CS2" loading="lazy">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_616x353.jpg" alt="CS2" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Game Server</div>
       <div class="game-content">
@@ -36,7 +36,7 @@ include 'includes/nav.php';
     </div>
     <!-- Game 3 -->
     <div class="game-card" data-animate style="transition-delay: 100ms;">
-      <img src="https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?auto=format&fit=crop&w=600&q=80" alt="Rust" loading="lazy">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/252490/capsule_616x353.jpg" alt="Rust" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Game Server</div>
       <div class="game-content">
@@ -46,7 +46,7 @@ include 'includes/nav.php';
     </div>
     <!-- Game 4 -->
     <div class="game-card" data-animate style="transition-delay: 150ms;">
-      <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80" alt="ARK" loading="lazy">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/346110/capsule_616x353.jpg" alt="ARK" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Game Server</div>
       <div class="game-content">
@@ -56,7 +56,7 @@ include 'includes/nav.php';
     </div>
     <!-- Game 5 -->
     <div class="game-card" data-animate style="transition-delay: 200ms;">
-      <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80" alt="Garry's Mod" loading="lazy">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/4000/capsule_616x353.jpg" alt="Garry's Mod" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Game Server</div>
       <div class="game-content">
@@ -66,7 +66,7 @@ include 'includes/nav.php';
     </div>
     <!-- Game 6 -->
     <div class="game-card" data-animate style="transition-delay: 250ms;">
-      <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=600&q=80" alt="Insurgency" loading="lazy">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/581320/capsule_616x353.jpg" alt="Insurgency" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Game Server</div>
       <div class="game-content">
@@ -76,7 +76,7 @@ include 'includes/nav.php';
     </div>
     <!-- Game 7 -->
     <div class="game-card" data-animate style="transition-delay: 300ms;">
-      <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Discord Bots" loading="lazy">
+      <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="Discord Bots" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Bot Hosting</div>
       <div class="game-content">
@@ -86,7 +86,7 @@ include 'includes/nav.php';
     </div>
     <!-- Game 8 -->
     <div class="game-card" data-animate style="transition-delay: 350ms;">
-      <img src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?auto=format&fit=crop&w=600&q=80" alt="Mumble / TeamSpeak" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/TeamSpeak_logo.svg/512px-TeamSpeak_logo.svg.png" alt="Mumble / TeamSpeak" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Voice Server</div>
       <div class="game-content">
@@ -96,7 +96,7 @@ include 'includes/nav.php';
     </div>
     <!-- Game 9 -->
     <div class="game-card" data-animate style="transition-delay: 400ms;">
-      <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80" alt="MariaDB" loading="lazy">
+      <img src="https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo-vert_blue-transparent.png" alt="MariaDB" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Database</div>
       <div class="game-content">
@@ -106,7 +106,7 @@ include 'includes/nav.php';
     </div>
     <!-- Game 10 -->
     <div class="game-card" data-animate style="transition-delay: 450ms;">
-      <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80" alt="MongoDB" loading="lazy">
+      <img src="https://webimages.mongodb.com/_com_assets/cms/kuyz3d112gl120y21-MongoDB_Logomark_SpringGreen.png" alt="MongoDB" loading="lazy">
       <div class="game-overlay"></div>
       <div class="badge-category">Database</div>
       <div class="game-content">

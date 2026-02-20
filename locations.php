@@ -13,44 +13,38 @@ include 'includes/nav.php';
 </section>
 
 <section class="map-section container">
-  <div class="map-container" data-animate>
-    <svg viewBox="0 0 1000 500" class="world-map-svg">
-      <!-- Simplified World Map Paths -->
-      <path d="M 100 100 Q 150 50 200 100 T 300 150 Q 350 200 300 250 T 200 300 Q 150 350 100 300 T 50 200 Q 0 150 50 100 Z" fill="#0d1117" stroke="#1e2a3a" stroke-width="2"/>
-      <path d="M 400 100 Q 450 50 500 100 T 600 150 Q 650 200 600 250 T 500 300 Q 450 350 400 300 T 350 200 Q 300 150 350 100 Z" fill="#0d1117" stroke="#1e2a3a" stroke-width="2"/>
-      <path d="M 700 100 Q 750 50 800 100 T 900 150 Q 950 200 900 250 T 800 300 Q 750 350 700 300 T 650 200 Q 600 150 650 100 Z" fill="#0d1117" stroke="#1e2a3a" stroke-width="2"/>
-      <path d="M 750 350 Q 800 300 850 350 T 900 400 Q 850 450 800 400 T 750 350 Z" fill="#0d1117" stroke="#1e2a3a" stroke-width="2"/>
-      
-      <!-- Markers -->
-      <!-- NA-West -->
-      <g class="map-marker" transform="translate(150, 180)">
-        <circle cx="0" cy="0" r="12" class="pulse-ring" />
-        <circle cx="0" cy="0" r="24" class="pulse-ring" style="animation-delay: 1s;" />
-        <circle cx="0" cy="0" r="4" fill="#2563eb" />
-        <title>NA-West (Los Angeles)</title>
-      </g>
-      <!-- NA-East -->
-      <g class="map-marker" transform="translate(250, 170)">
-        <circle cx="0" cy="0" r="12" class="pulse-ring" />
-        <circle cx="0" cy="0" r="24" class="pulse-ring" style="animation-delay: 1s;" />
-        <circle cx="0" cy="0" r="4" fill="#2563eb" />
-        <title>NA-East (Virginia)</title>
-      </g>
-      <!-- EU-West -->
-      <g class="map-marker" transform="translate(480, 140)">
-        <circle cx="0" cy="0" r="12" class="pulse-ring" />
-        <circle cx="0" cy="0" r="24" class="pulse-ring" style="animation-delay: 1s;" />
-        <circle cx="0" cy="0" r="4" fill="#2563eb" />
-        <title>EU-West (London)</title>
-      </g>
-      <!-- AU-East -->
-      <g class="map-marker" transform="translate(820, 380)">
-        <circle cx="0" cy="0" r="12" class="pulse-ring" />
-        <circle cx="0" cy="0" r="24" class="pulse-ring" style="animation-delay: 1s;" />
-        <circle cx="0" cy="0" r="4" fill="#2563eb" />
-        <title>AU-East (Sydney)</title>
-      </g>
-    </svg>
+  <div class="map-container" data-animate style="position: relative; width: 100%; max-width: 1000px; margin: 0 auto; aspect-ratio: 950 / 620;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg'); background-size: cover; background-position: center; opacity: 0.8; filter: invert(1) hue-rotate(180deg) brightness(1.5) contrast(0.8); pointer-events: none;"></div>
+    
+    <!-- Markers -->
+    <!-- NA-West -->
+    <div class="map-marker-html" style="position: absolute; left: 17%; top: 35%; transform: translate(-50%, -50%);">
+      <div class="pulse-ring-html"></div>
+      <div class="pulse-ring-html" style="animation-delay: 1s;"></div>
+      <div class="marker-dot"></div>
+      <div class="marker-tooltip">NA-West (Los Angeles)</div>
+    </div>
+    <!-- NA-East -->
+    <div class="map-marker-html" style="position: absolute; left: 26%; top: 35%; transform: translate(-50%, -50%);">
+      <div class="pulse-ring-html"></div>
+      <div class="pulse-ring-html" style="animation-delay: 1s;"></div>
+      <div class="marker-dot"></div>
+      <div class="marker-tooltip">NA-East (Virginia)</div>
+    </div>
+    <!-- EU-West -->
+    <div class="map-marker-html" style="position: absolute; left: 48%; top: 25%; transform: translate(-50%, -50%);">
+      <div class="pulse-ring-html"></div>
+      <div class="pulse-ring-html" style="animation-delay: 1s;"></div>
+      <div class="marker-dot"></div>
+      <div class="marker-tooltip">EU-West (London)</div>
+    </div>
+    <!-- AU-East -->
+    <div class="map-marker-html" style="position: absolute; left: 88%; top: 80%; transform: translate(-50%, -50%);">
+      <div class="pulse-ring-html"></div>
+      <div class="pulse-ring-html" style="animation-delay: 1s;"></div>
+      <div class="marker-dot"></div>
+      <div class="marker-tooltip">AU-East (Sydney)</div>
+    </div>
   </div>
 </section>
 

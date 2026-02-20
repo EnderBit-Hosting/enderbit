@@ -122,7 +122,7 @@ include 'includes/nav.php';
       <a href="/about.php" class="text-link">Learn Our Story &rarr;</a>
     </div>
     <div class="mission-image" data-animate style="transition-delay: 100ms;">
-      <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80" alt="Data Center" loading="lazy">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CERN_Server_Center.jpg/1200px-CERN_Server_Center.jpg" alt="Data Center" loading="lazy">
     </div>
   </div>
 </section>
@@ -168,27 +168,27 @@ include 'includes/nav.php';
   <div class="games-scroll-container" data-animate>
     <div class="games-scroll-track">
       <div class="game-card">
-        <img src="https://images.unsplash.com/photo-1607853202273-797f1c22a38e?auto=format&fit=crop&w=600&q=80" alt="Minecraft" loading="lazy">
+        <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/Games_Subnav_Minecraft-300x465.jpg" alt="Minecraft" loading="lazy">
         <div class="game-overlay"></div>
         <div class="game-name">Minecraft</div>
       </div>
       <div class="game-card">
-        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80" alt="CS2" loading="lazy">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_616x353.jpg" alt="CS2" loading="lazy">
         <div class="game-overlay"></div>
         <div class="game-name">CS2</div>
       </div>
       <div class="game-card">
-        <img src="https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?auto=format&fit=crop&w=600&q=80" alt="Rust" loading="lazy">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/252490/capsule_616x353.jpg" alt="Rust" loading="lazy">
         <div class="game-overlay"></div>
         <div class="game-name">Rust</div>
       </div>
       <div class="game-card">
-        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80" alt="ARK" loading="lazy">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/346110/capsule_616x353.jpg" alt="ARK" loading="lazy">
         <div class="game-overlay"></div>
         <div class="game-name">ARK: Survival Evolved</div>
       </div>
       <div class="game-card">
-        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80" alt="Garry's Mod" loading="lazy">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/4000/capsule_616x353.jpg" alt="Garry's Mod" loading="lazy">
         <div class="game-overlay"></div>
         <div class="game-name">Garry's Mod</div>
       </div>

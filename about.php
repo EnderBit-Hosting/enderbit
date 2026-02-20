@@ -7,7 +7,7 @@ include 'includes/nav.php';
 
 <section class="page-hero">
   <div class="hero-bg">
-    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1920&q=80" alt="Team working">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Hackathon_at_the_University_of_Tartu.jpg/1200px-Hackathon_at_the_University_of_Tartu.jpg" alt="Team working">
     <div class="hero-overlay"></div>
   </div>
   <div class="container hero-content text-center" data-animate>

@@ -2,7 +2,6 @@
   <div class="nav-left">
     <a href="/" class="nav-brand">
       <img src="/logo.png" alt="EnderBit Logo" class="nav-logo">
-      <span class="nav-title">EnderBit</span>
     </a>
   </div>
   <div class="nav-center">

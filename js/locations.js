@@ -1,9 +1,9 @@
 // locations.js — hostnames defined here only, never in HTML/PHP
 const REGIONS = [
-  { id: "na-east", name: "NA-East",  city: "Virginia",     country: "United States", url: "https://na-east-1.enderbit.com", img: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=600&q=80" },
-  { id: "na-west", name: "NA-West",  city: "Los Angeles",  country: "United States", url: "https://na-west-1.enderbit.com", img: "https://images.unsplash.com/photo-1580659324420-c2288ff0f4e4?auto=format&fit=crop&w=600&q=80" },
-  { id: "eu-west", name: "EU-West",  city: "London",       country: "United Kingdom", url: "https://eu-west-1.enderbit.com", img: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=600&q=80" },
-  { id: "au-east", name: "AU-East",  city: "Sydney",       country: "Australia",      url: "https://au-east-1.enderbit.com", img: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=80" },
+  { id: "na-east", name: "NA-East",  city: "Virginia",     country: "United States", url: "https://na-east-1.enderbit.com", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Virginia_State_Capitol_2012.jpg/800px-Virginia_State_Capitol_2012.jpg" },
+  { id: "na-west", name: "NA-West",  city: "Los Angeles",  country: "United States", url: "https://na-west-1.enderbit.com", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/LA_Skyline_Mountains2.jpg/800px-LA_Skyline_Mountains2.jpg" },
+  { id: "eu-west", name: "EU-West",  city: "London",       country: "United Kingdom", url: "https://eu-west-1.enderbit.com", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall_%28cropped%29.jpg/800px-Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall_%28cropped%29.jpg" },
+  { id: "au-east", name: "AU-East",  city: "Sydney",       country: "Australia",      url: "https://au-east-1.enderbit.com", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._%2821339175489%29.jpg/800px-Sydney_Australia._%2821339175489%29.jpg" },
 ];
 
 async function pingRegion(url) {

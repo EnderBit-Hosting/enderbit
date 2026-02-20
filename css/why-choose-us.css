@@ -1,7 +1,7 @@
 /* Page Hero */
 .page-hero {
   position: relative;
-  padding: 120px 24px;
+  padding: 100px 24px 60px;
   display: flex;
   align-items: center;
   justify-content: center;
