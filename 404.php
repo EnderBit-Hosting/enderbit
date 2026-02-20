@@ -23,7 +23,7 @@ include 'includes/nav.php';
     </p>
     <div class="error-actions">
       <a href="/" class="btn-primary btn-large">Back to Home</a>
-      <a href="/faq.php" class="btn-secondary btn-large">Visit FAQ</a>
+      <a href="/faq" class="btn-secondary btn-large">Visit FAQ</a>
     </div>
   </div>
 </div>

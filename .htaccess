@@ -15,10 +15,10 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.+?)/?$ $1.php [L]
 
 # Custom error pages
-ErrorDocument 403 /403.php
-ErrorDocument 404 /404.php
-ErrorDocument 500 /500.php
-ErrorDocument 503 /503.php
+ErrorDocument 403 /403
+ErrorDocument 404 /404
+ErrorDocument 500 /500
+ErrorDocument 503 /503
 
 # Security headers
 <IfModule mod_headers.c>
