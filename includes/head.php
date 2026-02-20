@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" href="/icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="/css/global.css">
-  <link rel="stylesheet" href="/css/<?php echo htmlspecialchars($css); ?>.css">
+  <link rel="stylesheet" href="/css/global.css?v=<?php echo filemtime(__DIR__ . '/../css/global.css'); ?>">
+  <link rel="stylesheet" href="/css/<?php echo htmlspecialchars($css); ?>.css?v=<?php echo filemtime(__DIR__ . '/../css/' . $css . '.css'); ?>">
 </head>
 <body>

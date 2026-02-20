@@ -30,6 +30,6 @@
     <p>&copy; 2026 EnderBit. All rights reserved.</p>
   </div>
 </footer>
-<script src="/js/global.js"></script>
+<script src="/js/global.js?v=<?php echo filemtime(__DIR__ . '/../js/global.js'); ?>"></script>
 </body>
 </html>

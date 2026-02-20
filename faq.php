@@ -167,5 +167,5 @@ include 'includes/nav.php';
   </div>
 </section>
 
-<script src="/js/faq.js"></script>
+<script src="/js/faq.js?v=<?php echo filemtime(__DIR__ . '/js/faq.js'); ?>"></script>
 <?php include 'includes/footer.php'; ?>

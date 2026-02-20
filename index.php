@@ -234,5 +234,5 @@ include 'includes/nav.php';
   </div>
 </section>
 
-<script src="/js/index.js"></script>
+<script src="/js/index.js?v=<?php echo filemtime(__DIR__ . '/js/index.js'); ?>"></script>
 <?php include 'includes/footer.php'; ?>

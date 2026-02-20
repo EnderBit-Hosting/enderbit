@@ -61,5 +61,5 @@ include 'includes/nav.php';
   </div>
 </section>
 
-<script src="/js/locations.js"></script>
+<script src="/js/locations.js?v=<?php echo filemtime(__DIR__ . '/js/locations.js'); ?>"></script>
 <?php include 'includes/footer.php'; ?>
